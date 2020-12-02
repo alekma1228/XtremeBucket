@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e4i-bo-Cmd"/>
+                        <viewControllerLayoutGuide type="bottom" id="dtK-M9-j28"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="GgU-eZ-z5Z">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="eBI-iX-e34">
+                                <rect key="frame" x="50" y="136.5" width="274" height="274"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eBI-iX-e34" secondAttribute="height" id="XB2-m9-4UW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eBI-iX-e34" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-60" id="1rd-xK-ZJE"/>
+                            <constraint firstItem="eBI-iX-e34" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4eI-v2-KKX"/>
+                            <constraint firstItem="dtK-M9-j28" firstAttribute="top" secondItem="GgU-eZ-z5Z" secondAttribute="bottom" id="5EJ-YM-wQw"/>
+                            <constraint firstItem="GgU-eZ-z5Z" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="PTz-WT-mxZ"/>
+                            <constraint firstAttribute="trailing" secondItem="GgU-eZ-z5Z" secondAttribute="trailing" id="hYz-7p-gQX"/>
+                            <constraint firstItem="GgU-eZ-z5Z" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="x3M-IP-qn2"/>
+                            <constraint firstItem="eBI-iX-e34" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="50" id="z0N-It-2bl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_background.png" width="500" height="887"/>
+        <image name="ico_logo.png" width="500" height="500"/>
+    </resources>
+</document>

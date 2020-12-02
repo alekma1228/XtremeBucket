@@ -1,0 +1,6 @@
+module Pods_Xtreme_Bucket_List {
+  umbrella header "Pods-Xtreme Bucket List-umbrella.h"
+
+  export *
+  module * { export * }
+}

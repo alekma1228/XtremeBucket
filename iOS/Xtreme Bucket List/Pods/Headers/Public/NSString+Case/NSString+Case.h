@@ -1,0 +1,1 @@
+link ../../../NSString+Case/src/NSString+Case.h

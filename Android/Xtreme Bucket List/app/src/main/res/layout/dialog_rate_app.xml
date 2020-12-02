@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="32dp"
+    android:minWidth="1000dp"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:text="Rate App"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_ratenow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:text="Rate Now"
+        android:textColor="@color/pink"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txt_maybelater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:text="Maybe Later"
+        android:textColor="@color/pink"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txt_nothanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:text="No, Thanks"
+        android:textColor="@color/pink"
+        android:textSize="16sp" />
+
+</LinearLayout>
